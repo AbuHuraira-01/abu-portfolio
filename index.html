@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Abu Huraira Portfolio</title>
+    <meta name="claude:viewport-fit-sides" content="cover" />
+    <meta name="description" content="Abu Huraira, frontend and MERN stack developer with a UI/UX design background. Based in Karachi, Pakistan." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Abu Huraira · Frontend & MERN Stack Developer" />
+    <meta property="og:description" content="Frontend & MERN stack developer with a UI/UX design background, based in Karachi." />
+    <meta name="theme-color" content="#eceeea" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0e1411" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2313201a'/%3E%3Ctext x='32' y='42' font-family='Arial,sans-serif' font-weight='800' font-size='26' text-anchor='middle' fill='%23eceeea'%3EAH%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" />
+    <script>
+      // Apply a saved theme before first paint so dark mode never flashes light.
+      try {
+        var t = localStorage.getItem('ah-theme');
+        if (t === 'dark' || t === 'light') document.documentElement.dataset.theme = t;
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>This portfolio needs JavaScript. Email: ahuraira0835@gmail.com</noscript>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
